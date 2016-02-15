@@ -37,7 +37,11 @@ Plug in your device then go to your working directory and type this command
 *Option 2:*
 Navigate to your working directory and type in:
 
-`cd vendor/<MANUFACTURER> && git clone https://github.com/TheMuppets/proprietory_vendor_<MANUFACTURER>.git`
+`cd vendor && git clone https://github.com/TheMuppets/proprietary_vendor_<MANUFACTURER>.git`
+
+then
+
+`mv proprietary_vendor_<MANUFACTURER> <MANUFACTURER>`
 
 ###Building
 
