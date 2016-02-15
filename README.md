@@ -27,7 +27,7 @@ First off, cd into the root of your working directory and type in these commands
 
 `breakfast <DEVICE>`
 
-Now you can go two directions here. If you have CyanogenMod running already on your device, go with the first option
+Now you can go two directions here. If you have CyanogenMod running already on your device, go with the first option. Otherwise, go with the second
 
 *Option 1:*
 Plug in your device then go to your working directory and type this command
