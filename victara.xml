@@ -1,1 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+  <remote  name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/cm-13.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+           
+           
+<!-- BEGIN ANIMBUSOS -->
+    <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
+  <project path="" name="AnimbusOS/" />
+</manifest>
