@@ -4,13 +4,14 @@
   <remote  name="github"
            fetch=".." />
 
-  <default remote="github"
+  <default revision="refs/heads/cm-13.0" 
+           remote="github"
            sync-c="true"
            sync-j="4" />
            
            
-  <!-- BEGIN ANIMBUSOS -->
-    <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="refs/heads/cm-13.0" />
-    <project path="device/motorola/victara" name="AnimbusOS/tree_victara" revision="refs/heads/android-6.0.1" />
-  <!---->
+  <!-- BEGIN VICTARA -->
+    <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
+    <project path="device/motorola/victara" name="AnimbusOS/tree_victara"/>
+  <!-- END VICTARA -->
 </manifest>
