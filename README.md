@@ -1,6 +1,6 @@
 #AnimbusOS
 
-AnimbusOS is, at least for now, just an AOSP-ified version of [CyanogenMod](https://github.com/CyanogenMod/android)
+AnimbusOS is, at least for now, just AOSP
 
 ##Getting Started
 
@@ -23,7 +23,7 @@ Building works just like in cyanogenmod. `<DEVICE>` will stand for the codename 
 
 First off, cd into the root of your working directory and type in these commands:
 
-`repo sync -m <DEVICE>.xml`
+`//`
 
 `make clobber`
 
