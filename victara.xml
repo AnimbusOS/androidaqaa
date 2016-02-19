@@ -11,7 +11,7 @@
            
            
   <!-- BEGIN VICTARA -->
-    <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
     <project path="device/motorola/victara" name="AnimbusOS/tree_victara"/>
+    <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" />
   <!-- END VICTARA -->
 </manifest>
