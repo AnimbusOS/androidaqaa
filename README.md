@@ -37,10 +37,10 @@ Type in these commands:
 
 `lunch aosp_<DEVICE>-userdebug`
 
-`make /options/`
+`make -j#` (# being the number of logical cores on the device)
 
 The build will start
 
 ##Credits
-* Based on CyanogenMod
+* Based on AOSP
 * Some sources from [cm-lite](https://github.com/cm-lite)
