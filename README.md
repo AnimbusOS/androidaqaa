@@ -23,25 +23,11 @@ Building works just like in cyanogenmod. `<DEVICE>` will stand for the codename 
 
 First off, cd into the root of your working directory and type in these commands:
 
-`source build/envsetup.sh/`
+`repo sync -m <DEVICE>.xml`
 
-`breakfast <DEVICE>`
+`make clobber`
 
-Now you can go two directions here. If you have CyanogenMod running already on your device, go with the first option. Otherwise, go with the second
-
-*Option 1:*
-Plug in your device then go to your working directory and type this command
-
-`source vendor/<MANUFACTURER>/extract-files.sh`
-
-*Option 2:*
-Navigate to your working directory and type in:
-
-`cd vendor && git clone https://github.com/TheMuppets/proprietary_vendor_<MANUFACTURER>.git`
-
-then
-
-`mv proprietary_vendor_<MANUFACTURER> <MANUFACTURER>`
+`. build/envsetup.sh`
 
 ###Building
 
@@ -49,7 +35,9 @@ Type in these commands:
 
 `croot`
 
-`brunch <DEVICE>`
+`lunch aosp_<DEVICE>-userdebug`
+
+`make /options/`
 
 The build will start
 
